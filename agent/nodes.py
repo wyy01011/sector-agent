@@ -32,12 +32,6 @@ SECTOR_ALIASES = {
     "healthcare": "Healthcare",
 }
 
-
-def normalize_sector_name(sector):
-    normalized = sector.lower().strip()
-    return SECTOR_ALIASES.get(normalized, sector.strip())
-
-
 def parse_query(state):
     query = state["user_query"].lower()
 
@@ -69,23 +63,7 @@ def parse_query(state):
     return state
 
 
-def classify_route(state):
-    intent = state.get("intent")
-
-    if intent == "comparison":
-        route = "comparison_route"
-    elif intent == "sector_analysis":
-        route = "sector_analysis_route"
-    elif intent == "company_analysis":
-        route = "company_analysis_route"
-    else:
-        route = "default_route"
-
-    state["route_taken"].append(route)
-
-    return state
-
-def map_company_to_sector(state):
+""" def map_company_to_sector(state):
     company = state.get("detected_company")
     sector = None
 
@@ -108,7 +86,7 @@ def map_company_to_sector(state):
     state["detected_sector"] = sector
     state["route_taken"].append("map_company_to_sector")
     return state
-
+ """
 
 def retrieve_sector_data(state):
     sector = state.get("detected_sector")
