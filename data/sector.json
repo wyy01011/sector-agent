@@ -1,0 +1,51 @@
+[{
+  "sector": "Semiconductors",
+  "description": "Companies that design, manufacture, or supply semiconductor chips and related equipment.",
+  "major_companies": ["Nvidia", "AMD", "Intel", "TSMC", "Micron"],
+  "key_drivers": ["AI demand", "data center spending", "consumer electronics", "supply chain capacity"],
+  "risks": ["cyclicality", "export controls", "inventory corrections", "capex intensity"],
+    "opportunities": ["AI accelerators", "edge computing", "automotive chips", "high-bandwidth memory"],
+    "macro_factors": ["interest rates", "capital expenditure cycles", "US-China policy", "global manufacturing demand"]
+  },
+
+  {
+    "sector": "Banking",
+    "description": "Financial institutions that accept deposits, lend money, and provide financial services.",
+    "major_companies": ["JPMorgan Chase", "Bank of America", "Citigroup", "Wells Fargo", "HSBC"],
+    "key_drivers": ["interest rates", "loan demand", "credit growth", "regulation"],
+    "risks": ["loan defaults", "interest rate volatility", "regulatory pressure", "liquidity risk"],
+    "opportunities": ["digital banking", "fintech partnerships", "cross-border payments", "wealth management"],
+    "macro_factors": ["central bank policy", "economic growth", "inflation", "unemployment rates"]
+  },
+
+  {
+    "sector": "Energy",
+    "description": "Companies involved in oil, gas, renewable energy, and power generation.",
+    "major_companies": ["ExxonMobil", "Chevron", "Shell", "BP", "NextEra Energy"],
+    "key_drivers": ["oil prices", "global demand", "geopolitics", "energy transition"],
+    "risks": ["commodity volatility", "regulatory changes", "environmental pressure", "capital intensity"],
+    "opportunities": ["renewables", "carbon capture", "LNG expansion", "electrification"],
+    "macro_factors": ["oil supply/demand balance", "OPEC decisions", "global growth", "climate policy"]
+  },
+
+  {
+    "sector": "Consumer Technology",
+    "description": "Companies producing consumer electronics, software, and digital platforms.",
+    "major_companies": ["Apple", "Microsoft", "Google", "Meta", "Amazon"],
+    "key_drivers": ["consumer spending", "innovation cycles", "advertising demand", "cloud growth"],
+    "risks": ["regulation", "competition", "market saturation", "privacy concerns"],
+    "opportunities": ["AI products", "subscription models", "cloud expansion", "ecosystems"],
+    "macro_factors": ["interest rates", "consumer confidence", "tech regulation", "global demand"]
+  },
+
+  {
+    "sector": "Healthcare",
+
+    "description": "Companies involved in pharmaceuticals, biotech, healthcare services, and medical devices.",
+    "major_companies": ["Pfizer", "Johnson & Johnson", "Moderna", "UnitedHealth", "Roche"],
+    "key_drivers": ["aging population", "drug innovation", "healthcare spending", "insurance coverage"],
+    "risks": ["regulation", "drug approval failures", "pricing pressure", "patent expirations"],
+    "opportunities": ["biotech innovation", "personalized medicine", "AI diagnostics", "global healthcare demand"],
+    "macro_factors": ["government healthcare policy", "demographics", "pandemics", "insurance systems"]
+  }
+]

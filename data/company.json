@@ -1,0 +1,202 @@
+[
+  {
+    "company": "Nvidia",
+    "sector": "Semiconductors",
+    "description": "Designs graphics processors, AI accelerators, networking products, and related computing platforms.",
+    "strengths": ["AI accelerator leadership", "CUDA software ecosystem", "strong data center presence"],
+    "risks": ["export restrictions", "customer concentration", "intense chip competition"],
+    "growth_drivers": ["generative AI infrastructure", "accelerated computing", "data center networking"]
+  },
+  {
+    "company": "AMD",
+    "sector": "Semiconductors",
+    "description": "Designs processors, graphics chips, data center accelerators, and adaptive computing products.",
+    "strengths": ["competitive CPU portfolio", "broad computing product range", "fabless business model"],
+    "risks": ["strong competitors", "semiconductor cyclicality", "manufacturing partner dependence"],
+    "growth_drivers": ["data center CPUs", "AI accelerators", "embedded computing"]
+  },
+  {
+    "company": "Intel",
+    "sector": "Semiconductors",
+    "description": "Designs and manufactures processors and other semiconductor products for personal computing and data centers.",
+    "strengths": ["large installed base", "integrated manufacturing capabilities", "broad enterprise relationships"],
+    "risks": ["manufacturing execution", "market share pressure", "high capital requirements"],
+    "growth_drivers": ["foundry services", "advanced process nodes", "AI-enabled computing"]
+  },
+  {
+    "company": "TSMC",
+    "sector": "Semiconductors",
+    "description": "Manufactures semiconductor chips for fabless chip designers through its global foundry operations.",
+    "strengths": ["advanced manufacturing technology", "large customer base", "foundry scale"],
+    "risks": ["geopolitical exposure", "high capital spending", "semiconductor demand cycles"],
+    "growth_drivers": ["advanced-node demand", "AI chip production", "global manufacturing expansion"]
+  },
+  {
+    "company": "Micron",
+    "sector": "Semiconductors",
+    "description": "Produces memory and storage products, including DRAM, NAND flash, and high-bandwidth memory.",
+    "strengths": ["memory technology expertise", "broad storage portfolio", "AI memory exposure"],
+    "risks": ["memory price volatility", "inventory cycles", "capital-intensive manufacturing"],
+    "growth_drivers": ["high-bandwidth memory", "data center demand", "automotive memory"]
+  },
+  {
+    "company": "JPMorgan Chase",
+    "sector": "Banking",
+    "description": "Provides consumer banking, commercial banking, investment banking, payments, and asset management services.",
+    "strengths": ["diversified revenue", "large deposit base", "strong investment banking franchise"],
+    "risks": ["credit losses", "regulatory requirements", "market volatility"],
+    "growth_drivers": ["payments growth", "wealth management", "digital banking adoption"]
+  },
+  {
+    "company": "Bank of America",
+    "sector": "Banking",
+    "description": "Offers consumer banking, lending, wealth management, and corporate and investment banking services.",
+    "strengths": ["large US customer base", "broad financial services", "strong wealth management business"],
+    "risks": ["interest rate sensitivity", "credit deterioration", "regulatory pressure"],
+    "growth_drivers": ["digital engagement", "loan growth", "wealth management"]
+  },
+  {
+    "company": "Citigroup",
+    "sector": "Banking",
+    "description": "Provides banking, markets, treasury, and wealth services through an international financial network.",
+    "strengths": ["global network", "institutional client relationships", "treasury services"],
+    "risks": ["restructuring execution", "regulatory compliance", "international economic exposure"],
+    "growth_drivers": ["cross-border banking", "services revenue", "operational simplification"]
+  },
+  {
+    "company": "Wells Fargo",
+    "sector": "Banking",
+    "description": "Provides consumer and commercial banking, lending, investment, and wealth management services.",
+    "strengths": ["large branch network", "significant deposit base", "broad lending operations"],
+    "risks": ["regulatory constraints", "credit losses", "operational remediation costs"],
+    "growth_drivers": ["efficiency improvements", "digital banking", "commercial lending"]
+  },
+  {
+    "company": "HSBC",
+    "sector": "Banking",
+    "description": "Provides retail, commercial, investment, and wealth banking services across international markets.",
+    "strengths": ["international network", "Asian market presence", "trade finance capabilities"],
+    "risks": ["geopolitical exposure", "currency movements", "global regulatory complexity"],
+    "growth_drivers": ["Asian wealth management", "cross-border trade", "transaction banking"]
+  },
+  {
+    "company": "ExxonMobil",
+    "sector": "Energy",
+    "description": "Operates across oil and gas production, refining, chemicals, and lower-emission energy technologies.",
+    "strengths": ["integrated operations", "large resource base", "global scale"],
+    "risks": ["commodity price volatility", "environmental regulation", "large project execution"],
+    "growth_drivers": ["production expansion", "LNG demand", "carbon capture projects"]
+  },
+  {
+    "company": "Chevron",
+    "sector": "Energy",
+    "description": "Engages in oil and gas exploration, production, refining, marketing, and lower-carbon initiatives.",
+    "strengths": ["integrated business model", "strong upstream portfolio", "capital discipline"],
+    "risks": ["oil and gas price volatility", "project delays", "climate policy"],
+    "growth_drivers": ["upstream projects", "LNG", "renewable fuels"]
+  },
+  {
+    "company": "Shell",
+    "sector": "Energy",
+    "description": "Operates global oil, natural gas, LNG, refining, chemicals, power, and energy trading businesses.",
+    "strengths": ["leading LNG position", "integrated energy operations", "global trading capabilities"],
+    "risks": ["commodity volatility", "energy transition costs", "regulatory pressure"],
+    "growth_drivers": ["LNG demand", "energy trading", "low-carbon power"]
+  },
+  {
+    "company": "BP",
+    "sector": "Energy",
+    "description": "Produces and markets oil, gas, fuels, lubricants, and electricity while investing in lower-carbon energy.",
+    "strengths": ["global energy portfolio", "retail fuel network", "trading operations"],
+    "risks": ["commodity price swings", "transition strategy execution", "environmental liabilities"],
+    "growth_drivers": ["bioenergy", "EV charging", "oil and gas projects"]
+  },
+  {
+    "company": "NextEra Energy",
+    "sector": "Energy",
+    "description": "Owns regulated electric utility operations and develops renewable energy and energy storage projects.",
+    "strengths": ["large renewable portfolio", "regulated utility base", "project development experience"],
+    "risks": ["interest rate sensitivity", "regulatory decisions", "project execution"],
+    "growth_drivers": ["renewable generation", "battery storage", "electricity demand growth"]
+  },
+  {
+    "company": "Apple",
+    "sector": "Consumer Technology",
+    "description": "Designs consumer devices, operating systems, digital services, and related accessories.",
+    "strengths": ["strong brand", "integrated ecosystem", "large installed device base"],
+    "risks": ["hardware market saturation", "supply chain concentration", "platform regulation"],
+    "growth_drivers": ["services revenue", "device upgrades", "new computing platforms"]
+  },
+  {
+    "company": "Microsoft",
+    "sector": "Consumer Technology",
+    "description": "Develops productivity software, cloud infrastructure, operating systems, gaming products, and AI services.",
+    "strengths": ["enterprise relationships", "cloud platform scale", "recurring software revenue"],
+    "risks": ["cloud competition", "cybersecurity threats", "antitrust scrutiny"],
+    "growth_drivers": ["cloud adoption", "AI services", "security software"]
+  },
+  {
+    "company": "Google",
+    "sector": "Consumer Technology",
+    "description": "Provides internet search, digital advertising, cloud computing, mobile software, video, and AI products through Alphabet.",
+    "strengths": ["search leadership", "large advertising network", "AI research capabilities"],
+    "risks": ["antitrust action", "advertising dependence", "AI-driven search disruption"],
+    "growth_drivers": ["cloud computing", "AI products", "digital video"]
+  },
+  {
+    "company": "Meta",
+    "sector": "Consumer Technology",
+    "description": "Operates social media and messaging platforms and develops advertising, AI, and immersive technology products.",
+    "strengths": ["large global audience", "digital advertising scale", "strong engagement data"],
+    "risks": ["privacy regulation", "platform competition", "high infrastructure spending"],
+    "growth_drivers": ["AI-powered advertising", "business messaging", "social commerce"]
+  },
+  {
+    "company": "Amazon",
+    "sector": "Consumer Technology",
+    "description": "Operates e-commerce marketplaces, cloud infrastructure, advertising, logistics, and subscription services.",
+    "strengths": ["e-commerce scale", "leading cloud platform", "extensive logistics network"],
+    "risks": ["thin retail margins", "regulatory scrutiny", "high capital spending"],
+    "growth_drivers": ["cloud computing", "digital advertising", "logistics efficiency"]
+  },
+  {
+    "company": "Pfizer",
+    "sector": "Healthcare",
+    "description": "Researches, develops, manufactures, and markets prescription medicines and vaccines.",
+    "strengths": ["global commercial reach", "broad medicine portfolio", "research and development scale"],
+    "risks": ["patent expirations", "clinical trial failures", "drug pricing pressure"],
+    "growth_drivers": ["new drug launches", "oncology treatments", "vaccine development"]
+  },
+  {
+    "company": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "description": "Develops pharmaceuticals and medical technology products for a wide range of diseases and procedures.",
+    "strengths": ["diversified healthcare portfolio", "global distribution", "strong research capabilities"],
+    "risks": ["product litigation", "patent losses", "regulatory approvals"],
+    "growth_drivers": ["innovative medicines", "medical technology", "international healthcare demand"]
+  },
+  {
+    "company": "Moderna",
+    "sector": "Healthcare",
+    "description": "Develops medicines and vaccines using messenger RNA technology.",
+    "strengths": ["mRNA platform", "rapid development capabilities", "vaccine expertise"],
+    "risks": ["product concentration", "clinical trial uncertainty", "volatile vaccine demand"],
+    "growth_drivers": ["respiratory vaccines", "personalized cancer vaccines", "new mRNA therapies"]
+  },
+  {
+    "company": "UnitedHealth",
+    "sector": "Healthcare",
+    "description": "Provides health insurance, pharmacy benefits, care delivery, analytics, and healthcare services.",
+    "strengths": ["integrated healthcare model", "large membership base", "health services scale"],
+    "risks": ["reimbursement changes", "medical cost inflation", "regulatory scrutiny"],
+    "growth_drivers": ["value-based care", "healthcare analytics", "pharmacy services"]
+  },
+  {
+    "company": "Roche",
+    "sector": "Healthcare",
+    "description": "Develops pharmaceuticals and diagnostic products, with significant operations in oncology and laboratory testing.",
+    "strengths": ["pharmaceutical and diagnostics combination", "oncology expertise", "global research network"],
+    "risks": ["biosimilar competition", "clinical development failures", "pricing pressure"],
+    "growth_drivers": ["new medicines", "precision diagnostics", "personalized healthcare"]
+  }
+]
