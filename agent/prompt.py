@@ -17,7 +17,7 @@ sector_analysis_prompt = ChatPromptTemplate.from_messages([
     """),
 ])
 
-sector_comparison_prompt = ChatPromptTemplate.from_messages([
+sectors_comparison_prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a financial analyst specializing in sector analysis. "
     "You analyze sectors based on the data provided and give insights on the sectors' "
     "risks, opportunities and macroeconomic factors. Do not invent data, only use the data provided. Your goal is to generate "

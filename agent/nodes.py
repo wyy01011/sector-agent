@@ -1,4 +1,6 @@
 import json
+from agent.llm import llm
+from agent import prompt
 
 from pathlib import Path
 
@@ -42,6 +44,10 @@ def parse_query(state):
     if "compare" in query:
         intent = "comparison"
         sectors = query.replace("compare ", "").split(" and ")
+        sectors = [
+            sector.replace("sectors", "").replace("sector", "").strip()
+            for sector in sectors
+        ]
         state["detected_sectors"] = sectors
 
     elif "sector" in query:
@@ -84,7 +90,7 @@ def map_company_to_sector(state):
     sector = None
 
     if company:
-        company = company.lower()
+        company = company.lower().strip()
     else:
         state["detected_sector"] = None
         state["errors"].append("Empty company name!")
@@ -173,8 +179,98 @@ def retrieve_company_data(state):
 
 
 def analyze_sector(state):
+    # Read sector_data. Handle missing data.
+    # Send valid data through the prompt and LLM.
+    # Store the returned text.
+
     sector_data = state.get("sector_data")
     state["sector_analysis"] = None
 
+    if not sector_data:
+        state["errors"].append("No sector data available for analysis.")
+        state["route_taken"].append("analyze_sector")
+        return state
+    
+    chain = prompt.sector_analysis_prompt | llm
+    response = chain.invoke({
+
+        "sector_name": sector_data["sector"],
+        "sector_data": sector_data,
+
+    })
+
+    state["sector_analysis"] = response.content
     state["route_taken"].append("analyze_sector")
+    return state
+
+
+def company_analysis(state):
+
+    company_data = state.get("company_data")
+    state["company_analysis"] = None
+
+    if not company_data:
+        state["errors"].append("No company data available for analysis.")
+        state["route_taken"].append("company_analysis")
+        return state
+
+    chain = prompt.company_analysis_prompt | llm
+    response = chain.invoke({
+
+        "company_name": company_data["company"],
+        "company_data": company_data,
+
+    })
+
+    state["company_analysis"] = response.content
+    state["route_taken"].append("company_analysis")
+    return state
+
+
+def sectors_comparison(state):
+
+    sectors_data = state.get("sectors_data")
+    state["comparison_analysis"] = None
+
+    if not sectors_data:
+        state["errors"].append("No sector data available for comparison.")
+        state["route_taken"].append("sectors_comparison")
+        return state
+
+    chain = prompt.sectors_comparison_prompt | llm
+    response = chain.invoke({
+        "sectors_name": [s["sector"] for s in sectors_data],
+        "sectors_data": sectors_data
+
+    })
+
+    state["comparison_analysis"] = response.content
+    state["route_taken"].append("sectors_comparison")
+    return state
+
+
+def final_report(state):
+
+    user_query = state.get("user_query")
+    sector_analysis = state.get("sector_analysis")
+    comparison_analysis = state.get("comparison_analysis")
+    company_analysis = state.get("company_analysis")
+
+    state["final_report"] = None
+
+    if not user_query:
+        state["errors"].append("No user query available for final report.")
+        state["route_taken"].append("final_report")
+        return state
+
+    chain = prompt.final_report_prompt | llm
+    response = chain.invoke({
+        "user_query": user_query,
+        "sector_analysis": sector_analysis,
+        "comparison_analysis": comparison_analysis,
+        "company_analysis": company_analysis
+    })
+
+    state["final_report"] = response.content
+    state["route_taken"].append("final_report")
     return state
