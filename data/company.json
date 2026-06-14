@@ -1,6 +1,7 @@
 [
   {
     "company": "Nvidia",
+    "ticker": "NVDA",
     "sector": "Semiconductors",
     "description": "Designs graphics processors, AI accelerators, networking products, and related computing platforms.",
     "strengths": ["AI accelerator leadership", "CUDA software ecosystem", "strong data center presence"],
@@ -9,6 +10,7 @@
   },
   {
     "company": "AMD",
+    "ticker": "AMD",
     "sector": "Semiconductors",
     "description": "Designs processors, graphics chips, data center accelerators, and adaptive computing products.",
     "strengths": ["competitive CPU portfolio", "broad computing product range", "fabless business model"],
@@ -17,6 +19,7 @@
   },
   {
     "company": "Intel",
+    "ticker": "INTC",
     "sector": "Semiconductors",
     "description": "Designs and manufactures processors and other semiconductor products for personal computing and data centers.",
     "strengths": ["large installed base", "integrated manufacturing capabilities", "broad enterprise relationships"],
@@ -25,6 +28,7 @@
   },
   {
     "company": "TSMC",
+    "ticker": "TSM",
     "sector": "Semiconductors",
     "description": "Manufactures semiconductor chips for fabless chip designers through its global foundry operations.",
     "strengths": ["advanced manufacturing technology", "large customer base", "foundry scale"],
@@ -33,6 +37,7 @@
   },
   {
     "company": "Micron",
+    "ticker": "MU",
     "sector": "Semiconductors",
     "description": "Produces memory and storage products, including DRAM, NAND flash, and high-bandwidth memory.",
     "strengths": ["memory technology expertise", "broad storage portfolio", "AI memory exposure"],
@@ -41,6 +46,7 @@
   },
   {
     "company": "JPMorgan Chase",
+    "ticker": "JPM",
     "sector": "Banking",
     "description": "Provides consumer banking, commercial banking, investment banking, payments, and asset management services.",
     "strengths": ["diversified revenue", "large deposit base", "strong investment banking franchise"],
@@ -49,6 +55,7 @@
   },
   {
     "company": "Bank of America",
+    "ticker": "BAC",
     "sector": "Banking",
     "description": "Offers consumer banking, lending, wealth management, and corporate and investment banking services.",
     "strengths": ["large US customer base", "broad financial services", "strong wealth management business"],
@@ -57,6 +64,7 @@
   },
   {
     "company": "Citigroup",
+    "ticker": "C",
     "sector": "Banking",
     "description": "Provides banking, markets, treasury, and wealth services through an international financial network.",
     "strengths": ["global network", "institutional client relationships", "treasury services"],
@@ -65,6 +73,7 @@
   },
   {
     "company": "Wells Fargo",
+    "ticker": "WFC",
     "sector": "Banking",
     "description": "Provides consumer and commercial banking, lending, investment, and wealth management services.",
     "strengths": ["large branch network", "significant deposit base", "broad lending operations"],
@@ -73,6 +82,7 @@
   },
   {
     "company": "HSBC",
+    "ticker": "HSBC",
     "sector": "Banking",
     "description": "Provides retail, commercial, investment, and wealth banking services across international markets.",
     "strengths": ["international network", "Asian market presence", "trade finance capabilities"],
@@ -81,6 +91,7 @@
   },
   {
     "company": "ExxonMobil",
+    "ticker": "XOM",
     "sector": "Energy",
     "description": "Operates across oil and gas production, refining, chemicals, and lower-emission energy technologies.",
     "strengths": ["integrated operations", "large resource base", "global scale"],
@@ -89,6 +100,7 @@
   },
   {
     "company": "Chevron",
+    "ticker": "CVX",
     "sector": "Energy",
     "description": "Engages in oil and gas exploration, production, refining, marketing, and lower-carbon initiatives.",
     "strengths": ["integrated business model", "strong upstream portfolio", "capital discipline"],
@@ -97,6 +109,7 @@
   },
   {
     "company": "Shell",
+    "ticker": "SHEL",
     "sector": "Energy",
     "description": "Operates global oil, natural gas, LNG, refining, chemicals, power, and energy trading businesses.",
     "strengths": ["leading LNG position", "integrated energy operations", "global trading capabilities"],
@@ -105,6 +118,7 @@
   },
   {
     "company": "BP",
+    "ticker": "BP",
     "sector": "Energy",
     "description": "Produces and markets oil, gas, fuels, lubricants, and electricity while investing in lower-carbon energy.",
     "strengths": ["global energy portfolio", "retail fuel network", "trading operations"],
@@ -113,6 +127,7 @@
   },
   {
     "company": "NextEra Energy",
+    "ticker": "NEE",
     "sector": "Energy",
     "description": "Owns regulated electric utility operations and develops renewable energy and energy storage projects.",
     "strengths": ["large renewable portfolio", "regulated utility base", "project development experience"],
@@ -121,6 +136,7 @@
   },
   {
     "company": "Apple",
+    "ticker": "AAPL",
     "sector": "Consumer Technology",
     "description": "Designs consumer devices, operating systems, digital services, and related accessories.",
     "strengths": ["strong brand", "integrated ecosystem", "large installed device base"],
@@ -129,6 +145,7 @@
   },
   {
     "company": "Microsoft",
+    "ticker": "MSFT",
     "sector": "Consumer Technology",
     "description": "Develops productivity software, cloud infrastructure, operating systems, gaming products, and AI services.",
     "strengths": ["enterprise relationships", "cloud platform scale", "recurring software revenue"],
@@ -137,6 +154,7 @@
   },
   {
     "company": "Google",
+    "ticker": "GOOGL",
     "sector": "Consumer Technology",
     "description": "Provides internet search, digital advertising, cloud computing, mobile software, video, and AI products through Alphabet.",
     "strengths": ["search leadership", "large advertising network", "AI research capabilities"],
@@ -145,6 +163,7 @@
   },
   {
     "company": "Meta",
+    "ticker": "META",
     "sector": "Consumer Technology",
     "description": "Operates social media and messaging platforms and develops advertising, AI, and immersive technology products.",
     "strengths": ["large global audience", "digital advertising scale", "strong engagement data"],
@@ -153,6 +172,7 @@
   },
   {
     "company": "Amazon",
+    "ticker": "AMZN",
     "sector": "Consumer Technology",
     "description": "Operates e-commerce marketplaces, cloud infrastructure, advertising, logistics, and subscription services.",
     "strengths": ["e-commerce scale", "leading cloud platform", "extensive logistics network"],
@@ -161,6 +181,7 @@
   },
   {
     "company": "Pfizer",
+    "ticker": "PFE",
     "sector": "Healthcare",
     "description": "Researches, develops, manufactures, and markets prescription medicines and vaccines.",
     "strengths": ["global commercial reach", "broad medicine portfolio", "research and development scale"],
@@ -169,6 +190,7 @@
   },
   {
     "company": "Johnson & Johnson",
+    "ticker": "JNJ",
     "sector": "Healthcare",
     "description": "Develops pharmaceuticals and medical technology products for a wide range of diseases and procedures.",
     "strengths": ["diversified healthcare portfolio", "global distribution", "strong research capabilities"],
@@ -177,6 +199,7 @@
   },
   {
     "company": "Moderna",
+    "ticker": "MRNA",
     "sector": "Healthcare",
     "description": "Develops medicines and vaccines using messenger RNA technology.",
     "strengths": ["mRNA platform", "rapid development capabilities", "vaccine expertise"],
@@ -185,6 +208,7 @@
   },
   {
     "company": "UnitedHealth",
+    "ticker": "UNH",
     "sector": "Healthcare",
     "description": "Provides health insurance, pharmacy benefits, care delivery, analytics, and healthcare services.",
     "strengths": ["integrated healthcare model", "large membership base", "health services scale"],
@@ -193,6 +217,7 @@
   },
   {
     "company": "Roche",
+    "ticker": "RHHBY",
     "sector": "Healthcare",
     "description": "Develops pharmaceuticals and diagnostic products, with significant operations in oncology and laboratory testing.",
     "strengths": ["pharmaceutical and diagnostics combination", "oncology expertise", "global research network"],
