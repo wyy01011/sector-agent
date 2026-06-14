@@ -93,7 +93,7 @@ def retrieve_sector_data(state):
     state["sector_data"] = None
 
     if sector:
-        sector = normalize_sector_name(sector)
+      
         state["detected_sector"] = sector
 
         for item in data:
@@ -114,7 +114,7 @@ def retrieve_multiple_sector_data(state):
     state["sectors_data"] = []
 
     if multiple_sectors:
-        multiple_sectors = [normalize_sector_name(s) for s in multiple_sectors]
+        
         state["detected_sectors"] = multiple_sectors
 
         for sector in multiple_sectors:
