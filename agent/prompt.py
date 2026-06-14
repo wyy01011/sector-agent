@@ -38,12 +38,16 @@ company_analysis_prompt = ChatPromptTemplate.from_messages([
     "You analyze companies based on the data provided and give insights on the company's strengths, growth drivers and "
     "potential risks. Do not invent data, only use the data provided. Your goal is to generate "
     "insight about a given company in structured report format, with sections: "
-    "Company Sector, Description, Strengths, Growth Drivers, Risks, Summary. "
-    "The supplied data you can use is the company data supplied in the human message."),
+    "Company Sector, Description, Strengths, Growth Drivers, Risks, Market Snapshot, Summary. "
+    "The supplied data you can use is the company and market data supplied in the human message."
+    "Explain that latest_close and previous_close are the closing stock prices for the last two days, and use them in the market snapshot section."
+    "Explain that latest_close is newer than previous_close. Forbid adding random data and dates. Market data can be unavailable."
+    "Add actionables if there are any insights that can be turned into actionable recommendations. Mention whether the price increase or decrase."),
     
     ("human", """
         Company: {company_name}
         Data: {company_data}
+        Market data: {market_data}
 
         Analyze this company.
     """),

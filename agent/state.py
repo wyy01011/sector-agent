@@ -15,6 +15,8 @@ class SectorAgentState(TypedDict):
     comparison_analysis: str | None
     company_analysis: str | None
 
+    market_data: dict | None
+
     route_taken: list[str]
     errors: list[str]
 

@@ -1,8 +1,10 @@
 from agent.graph import graph 
 from agent.state import SectorAgentState
 
+user_query = input("What's on your mind? ")
+
 initial_state = SectorAgentState(
-    user_query="analyze energy sector",
+    user_query=user_query,
     route_taken=[],
     errors=[],
 )

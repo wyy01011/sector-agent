@@ -1,6 +1,9 @@
 import json
+
+from matplotlib import ticker
 from agent.llm import llm
-from agent import prompt
+from agent import prompt, state
+import yfinance as yf
 
 from pathlib import Path
 
@@ -197,6 +200,7 @@ def company_analysis(state):
 
         "company_name": company_data["company"],
         "company_data": company_data,
+        "market_data": state.get("market_data"),
 
     })
 
@@ -227,6 +231,55 @@ def sectors_comparison(state):
     return state
 
 
+def retrieve_market_data(state):
+
+    company_data = state.get("company_data")
+    state["market_data"] = None
+
+    if not company_data:
+        state["errors"].append("No company data available for market data retrieval.")
+        state["route_taken"].append("retrieve_market_data")
+        return state
+    
+    ticker = company_data.get("ticker")
+
+    if ticker:
+
+        try:
+            stock = yf.Ticker(ticker)
+            history = stock.history(period="5d")
+        except Exception as exc:
+            state["errors"].append(f"Failed to retrieve market data: {exc}")
+            state["route_taken"].append("retrieve_market_data")
+            return state
+    
+    if "Close" not in history.columns:
+        state["errors"].append(f"No closing price data available for ticker: {company_data.get('ticker')}")
+        state["route_taken"].append("retrieve_market_data")
+        return state
+
+    close_prices = history["Close"].dropna()
+
+    if len(close_prices) < 2:
+        state["errors"].append(f"Not enough market data available for ticker: {company_data.get('ticker')}")
+        state["route_taken"].append("retrieve_market_data")
+        return state
+
+    if history.empty:
+        state["errors"].append(f"No market data found for ticker: {company_data.get('ticker')}")
+        state["route_taken"].append("retrieve_market_data")
+        return state
+
+    latest_close = close_prices.iloc[-1]
+    previous_close = close_prices.iloc[-2]
+
+    state["market_data"] = {"latest_close": latest_close, 
+                            "previous_close": previous_close}
+
+    state["route_taken"].append("retrieve_market_data")
+    return state
+
+
 def final_report(state):
 
     user_query = state.get("user_query")
@@ -252,3 +305,4 @@ def final_report(state):
     state["final_report"] = response.content
     state["route_taken"].append("final_report")
     return state
+

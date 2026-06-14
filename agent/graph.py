@@ -10,6 +10,7 @@ builder.add_node("parse_query", nodes.parse_query)
 builder.add_node("retrieve_sector_data", nodes.retrieve_sector_data)
 builder.add_node("retrieve_multiple_sector_data", nodes.retrieve_multiple_sector_data)
 builder.add_node("retrieve_company_data", nodes.retrieve_company_data)
+builder.add_node("retrieve_market_data", nodes.retrieve_market_data)
 builder.add_node("analyze_sector", nodes.analyze_sector)
 builder.add_node("company_analysis", nodes.company_analysis)
 builder.add_node("sectors_comparison", nodes.sectors_comparison)
@@ -42,7 +43,8 @@ builder.add_conditional_edges("parse_query", choose_route,
 
 builder.add_edge("retrieve_multiple_sector_data", "sectors_comparison")
 builder.add_edge("retrieve_sector_data", "analyze_sector")
-builder.add_edge("retrieve_company_data", "company_analysis")
+builder.add_edge("retrieve_company_data", "retrieve_market_data")
+builder.add_edge("retrieve_market_data", "company_analysis")
 
 builder.add_edge("sectors_comparison", "final_report")
 builder.add_edge("analyze_sector", "final_report")
