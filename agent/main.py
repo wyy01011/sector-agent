@@ -1,7 +1,7 @@
 from agent.graph import graph 
 from agent.state import SectorAgentState
 
-user_query = input("What's on your mind? ")
+user_query = input("What's on your mind? \n")
 
 initial_state = SectorAgentState(
     user_query=user_query,

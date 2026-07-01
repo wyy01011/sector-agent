@@ -96,6 +96,8 @@ def retrieve_sector_data(state):
     state["sector_data"] = None
 
     if sector:
+        sector = sector.lower().strip()
+        sector = SECTOR_ALIASES.get(sector, sector)
       
         state["detected_sector"] = sector
 
@@ -117,7 +119,8 @@ def retrieve_multiple_sector_data(state):
     state["sectors_data"] = []
 
     if multiple_sectors:
-        
+        multiple_sectors = [sector.lower().strip() for sector in multiple_sectors]
+        multiple_sectors = [SECTOR_ALIASES.get(sector, sector) for sector in multiple_sectors]
         state["detected_sectors"] = multiple_sectors
 
         for sector in multiple_sectors:
@@ -288,6 +291,11 @@ def final_report(state):
     company_analysis = state.get("company_analysis")
 
     state["final_report"] = None
+
+    if state.get("errors"):
+        state["final_report"] = "Could not generate report because errors occurred: " + "; ".join(state["errors"])
+        state["route_taken"].append("final_report")
+        return state
 
     if not user_query:
         state["errors"].append("No user query available for final report.")
