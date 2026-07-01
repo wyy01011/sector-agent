@@ -20,4 +20,7 @@ class SectorAgentState(TypedDict):
     route_taken: list[str]
     errors: list[str]
 
+    watchlist_data: list[dict] | None
+    actionables: str | None
+
     final_report: str | None

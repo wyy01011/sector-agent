@@ -19,6 +19,12 @@ with data_path2.open(encoding="utf-8") as file2:
     data2 = json.load(file2)
 
 
+watchlist_path = Path(__file__).parent.parent / "data" / "watchlist.json"
+
+with watchlist_path.open(encoding="utf-8") as file3:
+    watchlist = json.load(file3)
+
+
 SECTOR_ALIASES = {
     "semiconductor": "Semiconductors",
     "semiconductors": "Semiconductors",
@@ -38,7 +44,10 @@ SECTOR_ALIASES = {
 def parse_query(state):
     query = state["user_query"].lower()
 
-    if "compare" in query:
+    if "actionable" in query or "stocks to monitor" in query or "watchlist" in query:
+        intent = "actionables"
+
+    elif "compare" in query:
         intent = "comparison"
         sectors = query.replace("compare ", "").split(" and ")
         sectors = [
@@ -159,6 +168,29 @@ def retrieve_company_data(state):
     
 
     state["route_taken"].append("retrieve_company_data")
+    return state
+
+def retrieve_watchlist_data(state):
+    state["watchlist_data"] = watchlist
+    state["route_taken"].append("retrieve_watchlist_data")
+    return state
+
+
+def actionables_analysis(state):
+    watchlist_data = state.get("watchlist_data")
+
+    if not watchlist_data:
+        state["errors"].append("No watchlist data available.")
+        state["route_taken"].append("actionables_analysis")
+        return state
+
+    chain = prompt.actionables_prompt | llm
+    response = chain.invoke({
+        "watchlist_data": watchlist_data,
+    })
+
+    state["actionables"] = response.content
+    state["route_taken"].append("actionables_analysis")
     return state
 
 
@@ -289,6 +321,7 @@ def final_report(state):
     sector_analysis = state.get("sector_analysis")
     comparison_analysis = state.get("comparison_analysis")
     company_analysis = state.get("company_analysis")
+    actionables = state.get("actionables")
 
     state["final_report"] = None
 
@@ -307,7 +340,9 @@ def final_report(state):
         "user_query": user_query,
         "sector_analysis": sector_analysis,
         "comparison_analysis": comparison_analysis,
-        "company_analysis": company_analysis
+        "company_analysis": company_analysis,
+        "actionables": actionables
+
     })
 
     state["final_report"] = response.content

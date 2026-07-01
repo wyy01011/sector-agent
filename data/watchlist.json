@@ -1,0 +1,758 @@
+[
+  {
+    "ticker": "NVDA",
+    "company": "Nvidia",
+    "sector": "Semiconductors",
+    "theme": "AI accelerators and data-center infrastructure",
+    "action": "Monitor",
+    "reason": "Nvidia is a leading supplier of GPUs and accelerated computing platforms used for AI training, inference, data centers, robotics, and high-performance computing.",
+    "potential_catalysts": [
+      "continued data-center revenue growth",
+      "Blackwell and next-generation GPU demand",
+      "enterprise AI and cloud-provider capital spending",
+      "growth in networking and full-stack AI systems"
+    ],
+    "risks": [
+      "valuation already reflects very high growth expectations",
+      "export restrictions or geopolitical limits on chip sales",
+      "competition from custom AI chips and rival accelerators",
+      "slowdown in AI infrastructure spending"
+    ],
+    "triggers_to_watch": [
+      "data-center revenue growth",
+      "gross margin trend",
+      "forward guidance",
+      "large cloud customer demand",
+      "supply constraints or inventory buildup"
+    ],
+    "metrics_to_track": [
+      "revenue growth",
+      "data-center revenue",
+      "gross margin",
+      "free cash flow",
+      "price trend versus 50-day and 200-day moving averages"
+    ],
+    "review_frequency": "Quarterly earnings and major AI infrastructure announcements",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "AMD",
+    "company": "Advanced Micro Devices",
+    "sector": "Semiconductors",
+    "theme": "AI accelerators, data-center CPUs, and competitive compute",
+    "action": "Monitor",
+    "reason": "AMD offers data-center CPUs, GPUs, and AI accelerators that could benefit from customers seeking alternatives or complements to Nvidia hardware.",
+    "potential_catalysts": [
+      "growth in Instinct AI accelerator adoption",
+      "data-center CPU share gains",
+      "cloud-provider deployments",
+      "improved software ecosystem for AI workloads"
+    ],
+    "risks": [
+      "strong competition from Nvidia",
+      "execution risk in AI accelerator roadmap",
+      "semiconductor demand cycles",
+      "margin pressure from competition"
+    ],
+    "triggers_to_watch": [
+      "data-center segment growth",
+      "AI accelerator sales commentary",
+      "major customer wins",
+      "gross margin improvement",
+      "inventory levels"
+    ],
+    "metrics_to_track": [
+      "data-center revenue",
+      "operating margin",
+      "gross margin",
+      "earnings growth",
+      "cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and product launch updates",
+    "time_horizon": "Medium-to-long-term watchlist"
+  },
+  {
+    "ticker": "AVGO",
+    "company": "Broadcom",
+    "sector": "Semiconductors",
+    "theme": "Custom AI chips, networking, and infrastructure software",
+    "action": "Monitor",
+    "reason": "Broadcom has exposure to custom AI accelerators, networking chips, and infrastructure software, making it a major supplier to large-scale data-center and cloud customers.",
+    "potential_catalysts": [
+      "custom AI chip demand from hyperscale customers",
+      "growth in networking products for AI clusters",
+      "VMware integration and software cash flow",
+      "new large AI customer wins"
+    ],
+    "risks": [
+      "customer concentration",
+      "lower margins in some AI chip programs",
+      "integration risk from large acquisitions",
+      "competition in custom silicon"
+    ],
+    "triggers_to_watch": [
+      "AI semiconductor revenue",
+      "software segment growth",
+      "customer concentration commentary",
+      "free cash flow",
+      "debt reduction progress"
+    ],
+    "metrics_to_track": [
+      "AI revenue",
+      "semiconductor revenue",
+      "infrastructure software revenue",
+      "free cash flow",
+      "operating margin"
+    ],
+    "review_frequency": "Quarterly earnings and hyperscaler customer updates",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Company",
+    "sector": "Semiconductors",
+    "theme": "Advanced chip manufacturing",
+    "action": "Monitor",
+    "reason": "TSMC manufactures advanced chips for many leading AI, smartphone, and high-performance computing companies.",
+    "potential_catalysts": [
+      "advanced-node demand from AI chip designers",
+      "pricing power in leading-edge manufacturing",
+      "capacity expansion",
+      "growth in high-performance computing demand"
+    ],
+    "risks": [
+      "geopolitical risk involving Taiwan",
+      "high capital spending requirements",
+      "customer concentration",
+      "cyclical semiconductor demand"
+    ],
+    "triggers_to_watch": [
+      "monthly revenue reports",
+      "advanced-node utilization",
+      "capital expenditure guidance",
+      "gross margin trend",
+      "geopolitical headlines"
+    ],
+    "metrics_to_track": [
+      "monthly revenue growth",
+      "gross margin",
+      "capex",
+      "HPC revenue mix",
+      "free cash flow"
+    ],
+    "review_frequency": "Monthly revenue updates and quarterly earnings",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "ASML",
+    "company": "ASML Holding",
+    "sector": "Semiconductor Equipment",
+    "theme": "Lithography equipment for advanced chips",
+    "action": "Monitor",
+    "reason": "ASML supplies critical lithography systems used to manufacture advanced semiconductors, including chips needed for AI and high-performance computing.",
+    "potential_catalysts": [
+      "advanced-node chip demand",
+      "EUV and High-NA EUV adoption",
+      "foundry and memory manufacturer capex recovery",
+      "long-term equipment backlog"
+    ],
+    "risks": [
+      "export restrictions to China",
+      "semiconductor equipment cycle downturns",
+      "high customer concentration",
+      "order timing volatility"
+    ],
+    "triggers_to_watch": [
+      "net bookings",
+      "backlog",
+      "China export restriction updates",
+      "foundry capex guidance",
+      "gross margin"
+    ],
+    "metrics_to_track": [
+      "net bookings",
+      "revenue growth",
+      "gross margin",
+      "backlog",
+      "free cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and semiconductor capex updates",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "MU",
+    "company": "Micron Technology",
+    "sector": "Semiconductors",
+    "theme": "Memory and high-bandwidth memory for AI",
+    "action": "Monitor",
+    "reason": "Micron produces DRAM, NAND, and high-bandwidth memory products that can benefit from AI servers and data-center demand.",
+    "potential_catalysts": [
+      "high-bandwidth memory demand",
+      "memory pricing recovery",
+      "AI server growth",
+      "improved supply discipline across memory producers"
+    ],
+    "risks": [
+      "highly cyclical memory pricing",
+      "inventory corrections",
+      "capital-intensive manufacturing",
+      "competition from global memory producers"
+    ],
+    "triggers_to_watch": [
+      "DRAM and NAND pricing trends",
+      "HBM revenue growth",
+      "inventory levels",
+      "gross margin recovery",
+      "capex guidance"
+    ],
+    "metrics_to_track": [
+      "revenue growth",
+      "gross margin",
+      "inventory",
+      "operating cash flow",
+      "HBM commentary"
+    ],
+    "review_frequency": "Quarterly earnings and memory pricing updates",
+    "time_horizon": "Cyclical watchlist"
+  },
+  {
+    "ticker": "MSFT",
+    "company": "Microsoft",
+    "sector": "Cloud and Software",
+    "theme": "Cloud, enterprise AI, and productivity software",
+    "action": "Monitor",
+    "reason": "Microsoft has exposure to cloud infrastructure, enterprise software, AI assistants, developer tools, and security products.",
+    "potential_catalysts": [
+      "Azure growth",
+      "AI monetization through Copilot and enterprise tools",
+      "cloud migration",
+      "security and productivity software expansion"
+    ],
+    "risks": [
+      "heavy AI capital spending",
+      "cloud competition",
+      "regulatory scrutiny",
+      "slower enterprise software spending"
+    ],
+    "triggers_to_watch": [
+      "Azure growth rate",
+      "AI contribution to cloud revenue",
+      "operating margin",
+      "capital expenditures",
+      "commercial bookings"
+    ],
+    "metrics_to_track": [
+      "cloud revenue growth",
+      "operating margin",
+      "free cash flow",
+      "capex",
+      "remaining performance obligations"
+    ],
+    "review_frequency": "Quarterly earnings and Azure updates",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "AMZN",
+    "company": "Amazon",
+    "sector": "Cloud and Consumer Technology",
+    "theme": "AWS cloud, AI infrastructure, advertising, and retail efficiency",
+    "action": "Monitor",
+    "reason": "Amazon combines AWS cloud exposure with advertising growth, logistics scale, and potential margin improvement in retail operations.",
+    "potential_catalysts": [
+      "AWS AI workload growth",
+      "advertising revenue expansion",
+      "retail margin improvement",
+      "logistics efficiency gains"
+    ],
+    "risks": [
+      "cloud competition",
+      "high capital spending",
+      "thin retail margins",
+      "regulatory pressure"
+    ],
+    "triggers_to_watch": [
+      "AWS growth rate",
+      "AWS operating margin",
+      "advertising revenue growth",
+      "retail operating income",
+      "capex trend"
+    ],
+    "metrics_to_track": [
+      "AWS revenue",
+      "operating income",
+      "free cash flow",
+      "advertising revenue",
+      "capital expenditures"
+    ],
+    "review_frequency": "Quarterly earnings and AWS growth updates",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "GOOGL",
+    "company": "Alphabet",
+    "sector": "Consumer Technology",
+    "theme": "Search, AI, cloud, and digital advertising",
+    "action": "Monitor",
+    "reason": "Alphabet has major positions in search, digital advertising, YouTube, cloud computing, AI models, and custom AI chips.",
+    "potential_catalysts": [
+      "AI product integration across search and workspace",
+      "Google Cloud growth",
+      "YouTube advertising and subscriptions",
+      "operating efficiency improvements"
+    ],
+    "risks": [
+      "AI disruption to traditional search",
+      "antitrust and regulatory pressure",
+      "advertising cyclicality",
+      "high AI infrastructure spending"
+    ],
+    "triggers_to_watch": [
+      "search revenue growth",
+      "Google Cloud profitability",
+      "YouTube revenue growth",
+      "AI product adoption",
+      "regulatory developments"
+    ],
+    "metrics_to_track": [
+      "advertising revenue",
+      "cloud revenue",
+      "cloud operating income",
+      "operating margin",
+      "free cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and AI product updates",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "META",
+    "company": "Meta Platforms",
+    "sector": "Consumer Technology",
+    "theme": "AI-powered advertising and social platforms",
+    "action": "Monitor",
+    "reason": "Meta uses AI to improve advertising performance, content recommendation, messaging, and developer tools across large social platforms.",
+    "potential_catalysts": [
+      "AI-driven ad targeting improvement",
+      "growth in Reels and messaging monetization",
+      "operating margin expansion",
+      "AI infrastructure and open-model ecosystem progress"
+    ],
+    "risks": [
+      "high AI and metaverse capital spending",
+      "privacy regulation",
+      "competition for user attention",
+      "advertising cyclicality"
+    ],
+    "triggers_to_watch": [
+      "ad revenue growth",
+      "daily active users",
+      "capital expenditure guidance",
+      "Reality Labs losses",
+      "operating margin"
+    ],
+    "metrics_to_track": [
+      "revenue growth",
+      "ad impressions",
+      "average price per ad",
+      "operating margin",
+      "free cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and AI product updates",
+    "time_horizon": "Medium-to-long-term watchlist"
+  },
+  {
+    "ticker": "ORCL",
+    "company": "Oracle",
+    "sector": "Cloud and Enterprise Software",
+    "theme": "Cloud infrastructure and enterprise databases",
+    "action": "Monitor",
+    "reason": "Oracle has exposure to enterprise databases, cloud infrastructure, and AI workloads through large cloud and data-center contracts.",
+    "potential_catalysts": [
+      "cloud infrastructure revenue growth",
+      "AI workload demand",
+      "database migration to cloud",
+      "large remaining performance obligations"
+    ],
+    "risks": [
+      "large capital spending requirements",
+      "competition from hyperscale cloud providers",
+      "execution risk in cloud expansion",
+      "debt and balance-sheet pressure"
+    ],
+    "triggers_to_watch": [
+      "cloud infrastructure growth",
+      "remaining performance obligations",
+      "operating margin",
+      "capex",
+      "major AI cloud contract announcements"
+    ],
+    "metrics_to_track": [
+      "cloud revenue",
+      "RPO",
+      "operating margin",
+      "free cash flow",
+      "debt levels"
+    ],
+    "review_frequency": "Quarterly earnings and cloud contract updates",
+    "time_horizon": "Medium-to-long-term watchlist"
+  },
+  {
+    "ticker": "CRM",
+    "company": "Salesforce",
+    "sector": "Enterprise Software",
+    "theme": "AI-enabled customer relationship management",
+    "action": "Monitor",
+    "reason": "Salesforce has a large enterprise customer base and is adding AI agents, automation, analytics, and data-cloud products to its CRM platform.",
+    "potential_catalysts": [
+      "AI agent adoption",
+      "Data Cloud growth",
+      "margin expansion",
+      "enterprise software spending recovery"
+    ],
+    "risks": [
+      "slower enterprise software budgets",
+      "AI monetization uncertainty",
+      "competition from Microsoft and other software vendors",
+      "integration complexity across acquisitions"
+    ],
+    "triggers_to_watch": [
+      "current remaining performance obligations",
+      "subscription revenue growth",
+      "operating margin",
+      "AI product adoption",
+      "customer retention"
+    ],
+    "metrics_to_track": [
+      "subscription revenue",
+      "cRPO",
+      "operating margin",
+      "free cash flow",
+      "net retention"
+    ],
+    "review_frequency": "Quarterly earnings and product adoption updates",
+    "time_horizon": "Medium-term watchlist"
+  },
+  {
+    "ticker": "PANW",
+    "company": "Palo Alto Networks",
+    "sector": "Cybersecurity",
+    "theme": "Platform security, cloud security, and AI-era threat protection",
+    "action": "Monitor",
+    "reason": "Palo Alto Networks provides network, cloud, endpoint, and AI-related security tools for enterprises consolidating cybersecurity platforms.",
+    "potential_catalysts": [
+      "platformization strategy adoption",
+      "cloud security growth",
+      "AI security demand",
+      "large enterprise renewals"
+    ],
+    "risks": [
+      "intense cybersecurity competition",
+      "customer migration friction",
+      "valuation risk",
+      "execution risk from acquisitions"
+    ],
+    "triggers_to_watch": [
+      "remaining performance obligations",
+      "next-generation security ARR",
+      "billings growth",
+      "operating margin",
+      "large customer growth"
+    ],
+    "metrics_to_track": [
+      "ARR",
+      "RPO",
+      "billings",
+      "revenue growth",
+      "free cash flow margin"
+    ],
+    "review_frequency": "Quarterly earnings and cybersecurity platform updates",
+    "time_horizon": "Long-term watchlist"
+  },
+  {
+    "ticker": "CRWD",
+    "company": "CrowdStrike",
+    "sector": "Cybersecurity",
+    "theme": "Endpoint security, cloud security, and AI-native security operations",
+    "action": "Monitor",
+    "reason": "CrowdStrike offers endpoint, identity, cloud, and security-operations tools through a cloud-native platform.",
+    "potential_catalysts": [
+      "module adoption expansion",
+      "AI-driven security operations",
+      "cloud workload protection demand",
+      "large enterprise customer growth"
+    ],
+    "risks": [
+      "valuation risk",
+      "customer trust and execution risk",
+      "competition from Microsoft and platform vendors",
+      "slower security budget growth"
+    ],
+    "triggers_to_watch": [
+      "annual recurring revenue",
+      "net retention",
+      "new module adoption",
+      "free cash flow margin",
+      "customer count growth"
+    ],
+    "metrics_to_track": [
+      "ARR",
+      "net retention",
+      "gross retention",
+      "free cash flow margin",
+      "operating margin"
+    ],
+    "review_frequency": "Quarterly earnings and security incident updates",
+    "time_horizon": "Medium-to-long-term watchlist"
+  },
+  {
+    "ticker": "FTNT",
+    "company": "Fortinet",
+    "sector": "Cybersecurity",
+    "theme": "Network security, firewalls, SASE, and secure networking",
+    "action": "Monitor",
+    "reason": "Fortinet provides firewalls, secure networking, SD-WAN, and SASE products that can benefit from data-center and enterprise security demand.",
+    "potential_catalysts": [
+      "firewall refresh cycles",
+      "AI data-center network security demand",
+      "SASE adoption",
+      "custom ASIC performance advantages"
+    ],
+    "risks": [
+      "firewall demand cyclicality",
+      "competition from Palo Alto Networks and other vendors",
+      "hardware margin pressure",
+      "enterprise spending slowdown"
+    ],
+    "triggers_to_watch": [
+      "billings growth",
+      "service revenue growth",
+      "product revenue recovery",
+      "operating margin",
+      "SASE adoption"
+    ],
+    "metrics_to_track": [
+      "billings",
+      "revenue growth",
+      "service revenue",
+      "operating margin",
+      "free cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and firewall demand updates",
+    "time_horizon": "Medium-term watchlist"
+  },
+  {
+    "ticker": "NET",
+    "company": "Cloudflare",
+    "sector": "Cloud Infrastructure and Cybersecurity",
+    "theme": "Edge network, application security, and developer platform",
+    "action": "Monitor",
+    "reason": "Cloudflare operates a global edge network with security, performance, developer, and AI-inference infrastructure products.",
+    "potential_catalysts": [
+      "enterprise customer growth",
+      "Zero Trust adoption",
+      "developer platform expansion",
+      "edge AI inference demand"
+    ],
+    "risks": [
+      "valuation risk",
+      "competition from larger cloud and security providers",
+      "need for sustained high growth",
+      "profitability execution risk"
+    ],
+    "triggers_to_watch": [
+      "large customer growth",
+      "dollar-based net retention",
+      "operating margin improvement",
+      "free cash flow",
+      "new product adoption"
+    ],
+    "metrics_to_track": [
+      "revenue growth",
+      "large customer count",
+      "net retention",
+      "operating margin",
+      "free cash flow margin"
+    ],
+    "review_frequency": "Quarterly earnings and product platform updates",
+    "time_horizon": "Higher-risk growth watchlist"
+  },
+  {
+    "ticker": "ETN",
+    "company": "Eaton",
+    "sector": "Electrical Equipment",
+    "theme": "Grid infrastructure, electrification, and data-center power",
+    "action": "Monitor",
+    "reason": "Eaton provides power-management equipment used in electrical infrastructure, data centers, industrial facilities, and grid modernization.",
+    "potential_catalysts": [
+      "data-center power demand",
+      "grid modernization spending",
+      "electrification trends",
+      "industrial backlog growth"
+    ],
+    "risks": [
+      "industrial cycle slowdown",
+      "valuation risk",
+      "supply-chain constraints",
+      "project timing delays"
+    ],
+    "triggers_to_watch": [
+      "orders and backlog",
+      "electrical segment growth",
+      "margin expansion",
+      "data-center demand commentary",
+      "capital spending cycles"
+    ],
+    "metrics_to_track": [
+      "organic revenue growth",
+      "segment margins",
+      "backlog",
+      "free cash flow",
+      "orders"
+    ],
+    "review_frequency": "Quarterly earnings and infrastructure spending updates",
+    "time_horizon": "Long-term infrastructure watchlist"
+  },
+  {
+    "ticker": "NEE",
+    "company": "NextEra Energy",
+    "sector": "Energy and Utilities",
+    "theme": "Renewable power, grid demand, and electricity load growth",
+    "action": "Monitor",
+    "reason": "NextEra combines a regulated utility base with large renewable energy and storage development exposure.",
+    "potential_catalysts": [
+      "electricity demand growth from data centers",
+      "renewable project development",
+      "battery storage demand",
+      "regulated utility rate-base growth"
+    ],
+    "risks": [
+      "interest-rate sensitivity",
+      "regulatory decisions",
+      "project execution delays",
+      "renewable power pricing pressure"
+    ],
+    "triggers_to_watch": [
+      "renewable backlog",
+      "utility rate-base growth",
+      "interest rate trend",
+      "earnings guidance",
+      "data-center power demand commentary"
+    ],
+    "metrics_to_track": [
+      "adjusted earnings growth",
+      "renewable backlog",
+      "debt levels",
+      "dividend growth",
+      "interest expense"
+    ],
+    "review_frequency": "Quarterly earnings and utility regulatory updates",
+    "time_horizon": "Long-term income and infrastructure watchlist"
+  },
+  {
+    "ticker": "LLY",
+    "company": "Eli Lilly",
+    "sector": "Healthcare",
+    "theme": "Obesity, diabetes, and pharmaceutical innovation",
+    "action": "Monitor",
+    "reason": "Eli Lilly has major growth exposure through obesity and diabetes medicines, along with a broader pharmaceutical pipeline.",
+    "potential_catalysts": [
+      "obesity and diabetes drug demand",
+      "manufacturing capacity expansion",
+      "pipeline progress",
+      "international market growth"
+    ],
+    "risks": [
+      "high valuation",
+      "drug pricing pressure",
+      "clinical trial risk",
+      "manufacturing capacity constraints"
+    ],
+    "triggers_to_watch": [
+      "sales growth for key medicines",
+      "manufacturing capacity updates",
+      "pipeline trial results",
+      "regulatory decisions",
+      "gross margin"
+    ],
+    "metrics_to_track": [
+      "revenue growth",
+      "key product sales",
+      "operating margin",
+      "R&D pipeline updates",
+      "free cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and clinical/regulatory updates",
+    "time_horizon": "Long-term healthcare watchlist"
+  },
+  {
+    "ticker": "ISRG",
+    "company": "Intuitive Surgical",
+    "sector": "Healthcare",
+    "theme": "Robotic surgery and medical technology",
+    "action": "Monitor",
+    "reason": "Intuitive Surgical is a leader in robotic-assisted surgery, with recurring revenue from instruments, accessories, and service tied to procedure growth.",
+    "potential_catalysts": [
+      "procedure volume growth",
+      "new robotic system adoption",
+      "international expansion",
+      "recurring instrument and service revenue"
+    ],
+    "risks": [
+      "hospital capital spending cycles",
+      "competition in robotic surgery",
+      "regulatory and reimbursement risk",
+      "high valuation"
+    ],
+    "triggers_to_watch": [
+      "procedure growth",
+      "system placements",
+      "installed base growth",
+      "gross margin",
+      "new product adoption"
+    ],
+    "metrics_to_track": [
+      "procedure volume",
+      "system placements",
+      "instruments and accessories revenue",
+      "gross margin",
+      "free cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and product adoption updates",
+    "time_horizon": "Long-term healthcare technology watchlist"
+  },
+  {
+    "ticker": "V",
+    "company": "Visa",
+    "sector": "Financial Technology",
+    "theme": "Digital payments and global transaction networks",
+    "action": "Monitor",
+    "reason": "Visa operates a global payments network that can benefit from digital payment adoption, cross-border spending, and cash-to-card conversion.",
+    "potential_catalysts": [
+      "cross-border payment recovery",
+      "digital payments growth",
+      "value-added services expansion",
+      "consumer spending resilience"
+    ],
+    "risks": [
+      "regulatory pressure on fees",
+      "consumer spending slowdown",
+      "competition from alternative payment systems",
+      "currency headwinds"
+    ],
+    "triggers_to_watch": [
+      "payments volume growth",
+      "cross-border volume growth",
+      "value-added services growth",
+      "operating margin",
+      "regulatory developments"
+    ],
+    "metrics_to_track": [
+      "payments volume",
+      "processed transactions",
+      "cross-border volume",
+      "operating margin",
+      "free cash flow"
+    ],
+    "review_frequency": "Quarterly earnings and consumer spending updates",
+    "time_horizon": "Long-term quality compounder watchlist"
+  }
+]

@@ -54,6 +54,25 @@ company_analysis_prompt = ChatPromptTemplate.from_messages([
 ])
 
 
+actionables_prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a financial research assistant. Use only the supplied watchlist data. "
+    "Do not guarantee returns. Do not say a stock will grow. Present ideas as stocks to monitor, "
+    "with reasons, risks, and triggers."),
+
+    ("human", """
+        Watchlist data: {watchlist_data}
+
+        Create an actionable stock-monitoring report.
+        Include:
+        - Stocks to monitor
+        - Why each one is worth monitoring
+        - Main risks
+        - Triggers to watch
+        - Final caution that this is not financial advice
+    """),
+])
+
+
 final_report_prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a report writer specializing in writing structured reports. Your goal is to provide "
     "a clearly sectioned report based on the insights provided by the financial analyst. The report/ output should "
@@ -68,6 +87,7 @@ final_report_prompt = ChatPromptTemplate.from_messages([
         sector_analysis = {sector_analysis}
         comparison_analysis = {comparison_analysis}
         company_analysis = {company_analysis}
+        actionables = {actionables} 
      
         Generate a report.
     """),
